@@ -2,7 +2,7 @@ let unit = "metric"; // Default Celsius
 let isDark = false;
 let lastWeatherData = null; // Store last fetched weather data
 
-const apiKey = "bd2eadb80022ae362338088c0ea84e54";
+const apiKey = "API_KEY"; // Replace this with your API Key
 
 async function getWeather(city = null) {
   const input = document.getElementById("cityInput").value.trim();

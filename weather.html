@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LIVE WEATHER MONITOR</title>
+  <link rel="stylesheet" href="weather_CSS.css" />
+  <script defer src="weather_JS.js"></script>
+</head>
+<body>
+  <div class="container" id="appContainer">
+    <div class="header">
+      <h1>🌤️ ClimaSense</h1>
+      <button onclick="toggleDarkMode()" id="themeToggle">◑ THEME</button>
+    </div>
+    
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name..." />
+      <button onclick="getWeather()">🔍︎</button>
+      <button onclick="getCurrentLocation()">🎯</button>
+    </div>
+
+    <div class="unit-toggle">
+      <label>Temperature Unit:</label>
+      <button onclick="toggleUnit()">°C / °F</button>
+    </div>
+
+    <div id="weatherResult" class="weather-result fade-in">
+      <!-- Weather info -->
+    </div>
+
+    <div class="recent-searches" id="recentSearches">
+      <h3>Recent Searches</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+</body>
+</html>

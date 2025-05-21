@@ -113,3 +113,7 @@
 * **Smart UI Experience:** Offers a smooth user interface with modern features like dark mode and live icons.
 * **Learning & Development:** Encourages understanding of APIs, JavaScript, and responsive design.
 * **Practical Implementation of AI/IoT Concepts:** While not using AI directly, it introduces concepts useful in smart environment and automation systems.
+
+![Screenshot (375)](https://github.com/user-attachments/assets/b2f07dad-41f2-451f-b084-038604b0f431)
+
+![Screenshot (376)](https://github.com/user-attachments/assets/ff3a840e-8da5-484d-bb8f-2678cd768328)
